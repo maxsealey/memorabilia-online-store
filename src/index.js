@@ -9,5 +9,3 @@ root.render(
     <App />
   </React.StrictMode>
 );
-
-// install fontawesome, mui components, bootstrap, react router, etc
