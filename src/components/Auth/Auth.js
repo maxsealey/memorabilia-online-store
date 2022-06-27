@@ -5,3 +5,5 @@ const Auth = () => {
         <div className='auth'></div>
     )
 }
+
+export default Auth;

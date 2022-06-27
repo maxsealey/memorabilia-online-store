@@ -5,3 +5,5 @@ const Sports = () => {
     <div className='sports'></div>
   )
 }
+
+export default Sports;

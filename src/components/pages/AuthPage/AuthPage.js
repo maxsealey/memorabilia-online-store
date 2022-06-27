@@ -5,3 +5,5 @@ const AuthPage = () => {
     <div className='auth-page'></div>
   )
 }
+
+export default AuthPage;
