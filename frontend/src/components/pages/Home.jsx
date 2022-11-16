@@ -1,8 +1,8 @@
-import './home.scss'
+import './_pages.scss';
 
 const Home = () => {
   return (
-    <div className='home'></div>
+    <div className='home'>Hello</div>
   );
 }
 
