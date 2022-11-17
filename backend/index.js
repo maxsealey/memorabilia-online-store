@@ -1,6 +1,8 @@
 const express = require("express");
 const cors = require("cors");
 
+const products = require("./products");
+
 const server = express();
 
 server.use(express.json());
@@ -11,7 +13,7 @@ server.get("/", (req, res)=> {
 });
 
 server.get("/products", (req, res)=> {
-    res.send([1, 2, 3, 4]); // placeholder
+    res.send(products);
 });
 
 const port = process.env.PORT || 8787;
