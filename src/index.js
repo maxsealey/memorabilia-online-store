@@ -7,7 +7,7 @@ import { Provider } from 'react-redux';
 import { configureStore } from '@reduxjs/toolkit';
 
 import productReducer, { productFetch } from './api/productSlice';
-import products from './api/products';
+import products from './data/products';
 
 const store = configureStore({
   reducer:{
