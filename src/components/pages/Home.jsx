@@ -2,7 +2,7 @@ import './_pages.scss';
 
 const Home = () => {
   return (
-    <div className='home'>Hello</div>
+    <div className='home'>Home</div>
   );
 }
 

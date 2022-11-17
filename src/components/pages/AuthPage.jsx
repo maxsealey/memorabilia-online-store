@@ -2,7 +2,7 @@ import './_pages.scss';
 
 const AuthPage = () => {
   return (
-    <div className='auth-page'></div>
+    <div className='auth-page'>Sign in</div>
   );
 }
 

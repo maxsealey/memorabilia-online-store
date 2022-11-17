@@ -2,7 +2,7 @@ import './_pages.scss';
 
 const Products = () => {
   return (
-    <div className='products'></div>
+    <div className='products'>Products</div>
   );
 }
 
