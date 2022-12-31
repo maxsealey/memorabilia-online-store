@@ -3,7 +3,6 @@ import { useGetAllproductsQuery } from '../../api/productAPI';
 import './_pages.scss';
 
 const Home = () => {
-  //const { items, status } = useSelector(state => state.products);
   const {data, err, isLoading} = useGetAllproductsQuery();
   return (
     <div className='home'>
