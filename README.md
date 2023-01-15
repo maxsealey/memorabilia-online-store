@@ -15,10 +15,3 @@ To start the store API:
     2. Run "nodemon"
     3. Naviagte to https://http://localhost:8787/ in your browser
     4. To see product data as a json object, go to http://localhost:8787/products
-
-
-Progress as of 12/31/22:
-
-Need to work on styling, but product API and redux implementations fully functional. Retrieves data and supplies to home page
-
-[![Screen-Shot-2022-12-31-at-3-30-58-PM.png](https://i.postimg.cc/G3VnKVf8/Screen-Shot-2022-12-31-at-3-30-58-PM.png)](https://postimg.cc/fkcPT2DD)
